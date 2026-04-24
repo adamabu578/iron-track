@@ -25,18 +25,18 @@ export default function Hero() {
 
       <div className="relative z-20 max-w-7xl mx-auto w-full px-6 flex justify-between items-center">
         {/* Left Content */}
-        <div className="max-w-3xl mt-16">
+        <div className="max-w-3xl mt-24 md:mt-16">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h1 className="text-6xl md:text-8xl lg:text-[7.5rem] font-black text-white leading-[0.95] tracking-tighter uppercase drop-shadow-2xl">
+            <h1 className="text-5xl md:text-8xl lg:text-[7.5rem] font-black text-white leading-[0.95] tracking-tighter uppercase drop-shadow-2xl">
               AI-Powered
               <br />
               Body & Gym
               <br />
-              <span className="text-[#22c55e] relative inline-block mt-2">Tracker.</span>
+              <span className="text-[#22c55e] relative inline-block mt-2 md:mt-0">Tracker.</span>
             </h1>
           </motion.div>
 
@@ -44,7 +44,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="mt-8 text-xl md:text-2xl text-zinc-300 max-w-2xl leading-relaxed font-medium drop-shadow-md"
+            className="mt-6 md:mt-8 text-lg md:text-2xl text-zinc-300 max-w-2xl leading-relaxed font-medium drop-shadow-md"
           >
             Track your workouts, analyze your form, and optimize your gains using state-of-the-art artificial intelligence. The future of fitness is entirely data-driven.
           </motion.p>
